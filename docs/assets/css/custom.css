@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --base-font-size: 16px;
+  --theme-color   : #07bbbc;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+.search input {
+  font-family: "Figtree", sans-serif;
+  margin: 10px;
+}
+
+.sidebar, .search input {
+  background-color: #F6F6F7;
+}
+
+.sidebar {
+  width: 270px;
+}
+
+.sidebar-toggle {
+  background-color: #00000000;
+  max-width: 0;
+}
+
 /*
 ===============================================================================================================================
 Put your custom CSS in this file.
